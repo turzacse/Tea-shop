@@ -12,7 +12,8 @@
     <!-- manrope google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- font awesome link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,27 +21,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        .manrope{
+        .manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
     <!-- custom color  -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                gfirst: '#FF8938',
-                gend: '#F00',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        gfirst: '#FF8938',
+                        gend: '#F00',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
-      <!-- font awesome script -->
-      <script src="https://kit.fontawesome.com/f2c84d4348.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/f2c84d4348.js" crossorigin="anonymous"></script>
 </head>
 
 <body class=".manrope">
@@ -48,102 +49,112 @@
         <!-- navigation ber  -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li>
-                    <a>Item</a>
-                    <ul class="p-2">
-                      <li><a>Tea</a></li>
-                      <li><a>Coffee</a></li>
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>Item</a>
+                            <ul class="p-2">
+                                <li><a>Tea</a></li>
+                                <li><a>Coffee</a></li>
+                            </ul>
+                        </li>
+                        <li><a>About</a></li>
                     </ul>
-                  </li>
-                  <li><a>About</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost normal-case text-xl">Your Cafe</a>
+                </div>
+                <a class="btn btn-ghost normal-case text-xl">Your Cafe</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li tabindex="0">
-                  <details>
-                    <summary>Item</summary>
-                    <ul class="p-2">
-                      <li><a>Tea</a></li>
-                      <li><a>Coffee</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a>About</a></li>
-              </ul>
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li tabindex="0">
+                        <details>
+                            <summary>Item</summary>
+                            <ul class="p-2">
+                                <li><a>Tea</a></li>
+                                <li><a>Coffee</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>About</a></li>
+                </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn bg-gradient-to-r from-gfirst to-gend-400">Login</a>
+                <a class="btn bg-gradient-to-r from-gfirst to-gend-400">Login</a>
             </div>
-          </div>
-         <!-- banner section -->
-         <div class="hero min-h-screen bg-base-200">
+        </div>
+        <!-- banner section -->
+        <div class="hero min-h-screen bg-base-200">
             <div class="hero-content flex-col lg:flex-row gap-14">
-              
-              <div>
-                <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br> 
-                    tea time at The 
-                    <br>Tea House</h1>
-                <p class="py-6 max-w-[400px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn bg-gradient-to-r from-gfirst to-gend text-white">Explore More <i class="fa-solid fa-arrow-up"></i></button>
-              </div>
 
-              <div class="relative">
-                <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl relative" />
-                <div class="flex items-center gap-2 bg-white max-w-[220px] p-7 absolute -bottom-10 -left-12">
-                    <div>
-                        <i class="fa-solid fa-star text-[#FFC850]"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-3xl font-extrabold">5.00</h3>
-                        <p class="font-bold">Trust Pilot Ratings</p>
+                <div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>
+                        tea time at The
+                        <br>Tea House
+                    </h1>
+                    <p class="py-6 max-w-[400px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                        Taste Buds.</p>
+                    <button class="btn bg-gradient-to-r from-gfirst to-gend text-white">Explore More <i
+                            class="fa-solid fa-arrow-up"></i></button>
+                </div>
+
+                <div class="relative">
+                    <img src="images/banner.png" class="max-w-sm rounded-lg shadow-2xl relative" />
+                    <div class="flex items-center gap-2 bg-white max-w-[220px] p-7 absolute -bottom-10 -left-12">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FFC850]"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl font-extrabold">5.00</h3>
+                            <p class="font-bold">Trust Pilot Ratings</p>
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </header>
     <main class="container mx-auto">
-         <!-- Featured Products Section  -->
-         <section class="">
+        <!-- Featured Products Section  -->
+        <section class="">
             <div class="text-center">
                 <h1 class="text-3xl lg:text-4xl font-extrabold">Our Featured Products</h1>
-                <p class="font-medium  p-4 lg:px-64">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="font-medium  p-4 lg:px-64">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected humour, or randomised words which
+                    don't look even slightly believable. </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-12 gap-6">
                 <!-- 1st tea cart -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                        <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="text-2xl font-extrabold">Milk Tea</h2>
-                      <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                      </div>
+                        <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                        <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                        </div>
                     </div>
                 </div>
 
                 <!-- 2nd tea cart -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                        <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="text-2xl font-extrabold">Black Tea</h2>
-                      <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                      </div>
+                        <h2 class="text-2xl font-extrabold">Black Tea</h2>
+                        <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                        </div>
                     </div>
                 </div>
 
@@ -151,37 +162,81 @@
                 <!-- 3rd tea cart -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                        <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
-                      <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                      </div>
+                        <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
+                        <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                        </div>
                     </div>
                 </div>
 
                 <!-- 4th tea cart -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                        <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="text-2xl font-extrabold">Green Tea</h2>
-                      <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                      </div>
+                        <h2 class="text-2xl font-extrabold">Green Tea</h2>
+                        <p class="font-semibold">If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                        </div>
                     </div>
                 </div>
 
 
             </div>
-         </section>
+        </section>
 
-         <!-- Meet Our Super Clients Section -->
-         <section>
+        <!-- Meet Our Super Clients Section -->
+        <section>
+            <div class="flex lg:flex-row flex-col lg:gap-48 gap-10 bg-gradient-to-r from-gfirst to-gend p-16 rounded-lg ">
+                <!-- content -->
+                <div class="text-[#F4F4F4] p-2 flex items-center">
+                    <div>
+                        <h2 class="font-extrabold text-4xl ">Meet Our Super <br> Clients</h2>
+                        <p class="font-medium py-4">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable. </p>
+                        <button class="btn text-[#FF8938] font-semibold p-4">Show All</button>
+                    </div>
+                </div>
 
-         </section>
+                <!-- review -->
+                <div class="ml-14 lg:ml-1">
+                    <div class="gap-10 relative">
+                        <!-- next review -->
+                        <div class="bg-white my-14 p-12 relative opacity-50">
+                            <img src="images/client.png" alt="" class="absolute -left-5 -top-5 border-white ">
+                            <p>We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment</p>
+                            <h2 class="font-bold">Ilham Yuda</h2>
+                            <h2 class="font-medium">Businessman</h2>
+                        </div>
+
+                        <!-- current review -->
+                        <div class="bg-white p-12 absolute
+                     top-40 right-24 -left-24 z-auto">
+                            <img src="images/client.png" alt="" class="absolute -left-5 -top-5 border-white">
+                            <p>We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment</p>
+                            <h2 class="font-bold">Ilham Yuda</h2>
+                            <h2 class="font-medium">Businessman</h2>
+                        </div>
+
+                        <!-- previous review -->
+                        <div class="bg-white p-12 relative opacity-50">
+                            <img src="images/client.png" alt="" class="absolute -left-5 -top-5 border-white">
+                            <p>We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment</p>
+                            <h2 class="font-bold">Ilham Yuda</h2>
+                            <h2 class="font-medium">Businessman</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
